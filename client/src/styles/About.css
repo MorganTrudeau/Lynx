@@ -1,0 +1,23 @@
+.about .cell0 {
+	height: 500px;
+}
+
+.about .cell1 {
+	padding: 20px 0px 60px 0px;
+}
+
+.about .multiCarousel {
+	padding: 1px 0px;
+}
+
+.about .multiCarousel .gridRow {
+	grid-gap: 1px;
+}
+
+.about .cell3 {
+	height: 500px;
+}
+
+.about .cell4 {
+	background-color: #f5f5f0;
+}

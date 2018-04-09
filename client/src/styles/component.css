@@ -1,0 +1,140 @@
+.navbar {
+	position:relative;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 10px;
+	background-color: #1a1a1a;
+}
+
+.navbar .navbar-nav > li > a {
+  	color: white;
+  	height: 100%;
+}
+
+.navbar .navbar-nav > li > a:hover {
+  	color: grey;
+}
+
+.navbar .navbar-menu-item > li > a {
+  	color: white;
+}
+
+.logo {
+	margin-top: -10px;
+}
+
+.carousel {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.hoverDiv {
+	margin-top: -20px;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.hoverDiv h1 {
+	color: white;
+	font-size: 10vw;
+	font-weight: bold;
+}
+
+.hoverDiv h3 {
+	color: white;
+	font-size: 5vw;
+	margin-bottom: 20px;
+}
+
+.carousel b {
+	letter-spacing: 1px;
+}
+
+.carousel .buttonReverse {
+	width: 25vw;
+	font-size: 15px;
+	min-width: 150px;
+	height: 50px;
+	margin: 0px;
+	background-color: rgba(0,0,0,0.2);
+	color: white;
+}
+
+
+.footer {
+	color: white;
+	background-color: #1a1a1a; 
+	padding: 15px 0px;
+}
+
+.footer a {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.footer .mediaIcons {
+	display: flex;
+	justify-content: center;
+}
+
+.footer .mediaIcon {
+	margin: 0px 20px 20px 20px;
+}
+
+.footer .gridRow {
+	text-align: center;
+}
+
+.footer .cell0 {
+	padding: 40px 10px 20px 10px;
+}
+
+.footer .cell1 {
+	padding: 20px 10px;
+}
+
+.footer .cell1 .button {
+	background-color: #FFD602;
+	border-color: black;
+	width: 200px;
+	margin: 0 auto;
+}
+
+.footer .cell1 .button:hover {
+	background-color: black;
+	border-color: #FFD602;
+	color: #FFD602;
+}
+
+.footer .cell2 {
+	padding: 20px;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.footer .cell1 {
+		grid-column-start: 3;
+	}
+
+	.carousel .buttonReverse {
+		font-size: 25px;
+		height: 70px;
+	}
+
+	.hoverDiv h3 {
+		margin-bottom: 40px;
+	}
+}
+
