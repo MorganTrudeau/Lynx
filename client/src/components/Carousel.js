@@ -11,7 +11,7 @@ class CarouselComp extends Component {
         <Carousel controls={false} pauseOnHover={false}>
           {this.props.pictures.map((pic) => 
             <Carousel.Item>
-              <img src={pic.pic} alt={pic.alt}/>
+              <img src={pic.pic} alt={pic.alt} />
             </Carousel.Item>
           )}
         </Carousel>

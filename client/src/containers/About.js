@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
 import '../styles/About.css';
 import MultiCarousel from '../components/MultiCarousel';
-import allen_block_retaining_wall_hardscape_landscaping from '../images/Hardscape/allen_block_retaining_wall_hardscape_landscaping.jpg';
+import allen_block_retaining_wall_hardscape_landscaping from '../images/patio-landscape-wall-firepit-belgard.jpg';
 import excavation_landscaping_construction from '../images/Excavation Services/excavation_landscaping_construction.jpg';
 import retaining_wall_allen_block_landscape from '../images/Hardscape/retaining_wall_allen_block_landscape.JPG';
 import lawn_maintenance_square from '../images/Lawn Maintenance/lawn_maintenance_square.jpg';
 import softscape_square from '../images/Softscape/softscape_square.jpg';
 import construction_excavator_gravel from '../images/construction_excavator_gravel.jpg'
-
 
 const Button = require('react-bootstrap/lib/Button');
 

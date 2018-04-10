@@ -8,9 +8,6 @@ class Services extends Component {
     return (
         <div>
           <div>
-            <SideNav />
-          </div>
-          <div>
             <Service />
           </div>
         </div>

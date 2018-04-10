@@ -55,11 +55,15 @@ h6, .h6 {
 }
 
 .primaryBGColor {
-	background-color: #28A828;
+	background-color: #8d8c7e;
+}
+
+.secondaryBGColor {
+	background-color: #f5f5f0;
 }
 
 .greyBG {
-	background-color: #333333;
+	background-color: #262626;
 }
 
 .gridRow {
@@ -95,7 +99,7 @@ h6, .h6 {
 }
 
 .textBlock {
-	padding: 10px 10px 20px 10px;
+	padding: 10px 15px 20px 15px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -111,7 +115,7 @@ h6, .h6 {
 }
 
 .banner {
-	padding: 50px 10px;
+	padding: 40px 10px;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
@@ -120,33 +124,48 @@ h6, .h6 {
 
 .button {
 	margin: 0 auto;
-	margin-top: 20px;
 	margin-bottom: 20px;
-	border-color: #28A828;
-	border-width: 3px;
-	background-color: #28A828;
+	border-color: #8d8c7e;
+	border-width: 4px;
+	background-color: #8d8c7e;
 	color: white;
 }
 
 .button:hover {
-	border-color: #28A828;
+	border-color: #8d8c7e;
 	background-color: rgba(0,0,0,0);
-	color: #28A828;
+	color: #8d8c7e;
 }
 
 .buttonReverse {
 	margin: 0 auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	border-color: #28A828;
-	border-width: 3px;
+	border-color: #8d8c7e;
+	border-width: 4px;
 	background-color: rgba(0,0,0,0);
 	color: white;
 }
 
+.whiteButton {
+	margin: 0 auto;
+	margin-bottom: 20px;
+	border-color: white;
+	border-width: 4px;
+	background-color: rgba(0,0,0,0);
+	color: white;
+}
+
+.whiteButton:hover {
+	border-color: white;
+	background-color: white;
+	color: #8d8c7e;
+}
+
+
 .buttonReverse:hover {
-	border-color: #28A828;
-	background-color: #28A828;
+	border-color: #8d8c7e;
+	background-color: #8d8c7e;
 	color: white;
 }
 
@@ -219,6 +238,27 @@ h6, .h6 {
 	border: none;
 }
 
+.formWrapper {
+	width: 100%;
+}
+
+.textArea {
+	width: 100%;
+}
+
+.form {
+	padding: 0px 20px;
+}
+
+.form input {
+	margin: 15px 0px;
+}
+
+.form select {
+	width: 150px;
+	margin: 15px 0px;
+}
+
 /* collapsable */
 
 .wrap-collabsible {
@@ -233,10 +273,10 @@ input[type='checkbox'] {
   display: block;
 
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   text-align: center;
 
-  padding: 1.4rem;
+  padding: 1.0rem;
 
   color: white;
   background: #28A828;
@@ -305,7 +345,20 @@ input[type='checkbox'] {
 	}
 
 	.paddedTextBlock {
-		padding: 10px 160px 20px 160px;
+		padding: 10px 20% 20px 20%;
+	}
+
+	.formWrapper {
+		margin: 0 auto;
+		width: 768px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.textArea {
+		margin: 0 auto;
+		padding: 40px 20px;
+		width: 768px;
 	}
 }
 

@@ -1,35 +1,42 @@
 import React, { Component } from 'react';
-import Hardscape1 from '../images/Hardscape-1.jpg';
-import Hardscape2 from '../images/Hardscape-2.jpg';
+import softscape1 from '../images/Softscape/softscape_flower_garden_plant_grow_beauty_landscaping_1.jpg';
+import softscape2 from '../images/Softscape/softscape_flower_garden_plant_grow_beauty_landscaping_2.jpg';
 import '../styles/custom.css';
+
+const Button = require('react-bootstrap/lib/Button');
 
 class SoftScape extends Component {
   render() {
     return (
-        <div className="hardscape centerText">
+        <div className="softscape centerText">
           <div className="banner greyBG whiteText">
-            <h3>Hardscape</h3>
-            <h6>Landscaping Construction Structure</h6>
+            <h2>Softscape</h2>
+            <h6>Living Beauty</h6>
           </div>
           <div className="gridRow col2">
-            <div className="centerText"><img src={Hardscape1} alt="" className="coverWidth" /></div>
-            <div className="marginTop centerText">
-              <h6>Forever Beautiful</h6>
+            <div className="picUnder"><img src={softscape1} alt="" className="pic" /></div>
+            <div className="textOverlap marginTop centerText">
               <div className="textBlock">
-                <p>Hardscape refers to landscape construction where structures are permanently incorporated into any landscape. These would include driveways, patios, decks, walkways, and stairs. Materials for these structures include allan blocks, wood, paving stones, brick, stone and concrete.</p>
-                <p>Some of the most common are allan block walls, brick patios, walkways, and driveways. If a customer is looking for a natural rustic look, we can do Flagstone and Natural Boulder work. Also, Allan Block structures that are frequently built include hot tub pads and raised garden beds. We guarantee the structural integrity of all Allan Block retaining walls & are sure to install the proper drainage when necessary. This is backed with a warranty.</p>
+                <h6>Accentuate Your Hardscape Features</h6>
+                <p>Softscape is the live horticultural aspect of landscaping. Softscaping includes flowers, plants, shrubs, trees, flower beds, hedges, as well as other components such as installing and supplying crushed rock, river rock, boulders, and bark mulch. And Softscape elements change over time, as they mature. The ideal landscape is a balance of both hardscape and softscape.</p>
+                <p>So when the hardscaping is complete, it’s time to add the living part of the landscape, which is the softscape. From planting trees and shrubs, installing mulch or decorative stone or simply installing sod to design a full season backyard, allow Lynx Landscaping’s premium landscape contracting company help make your dreams a reality.</p>
               </div>
             </div>
           </div>
+          <div className="banner primaryBGColor whiteText">
+            <div className="letsTalk">
+              <h3>Lets Talk About Your Project</h3><Button className="whiteButton"><b>Contact US</b></Button>
+            </div>  
+          </div>
           <div className="gridRow col2">
-            <div className="marginBottom centerText">
-              <h6>Make Your Vision Come to Life</h6>
+            <div className="textOverlap marginBottom centerText">
               <div className="textBlock">
-                <p>At Lynx Landscaping, we can help build your vision, including driveways, walkways, patios and decks, using materials ranging from paving stones to concrete. From uncovered patios in the Langley or Surrey area, or mixed material jobs in Coquitlam and Burnaby, that feature bricks, concrete and stone, we can do it all. We have the expertise and equipment to create structures of all forms and finishes.</p>
-                <p>Let us help you build your vision and dream, and make it a reality!</p>
+                <h6>Cost Effective Style</h6>
+                <p>Lynx Landscaping will help you select the right plants to create the desired visual effect and keep your maintenance cost in time and money at a range you can afford. We offer new plants, transplanting of existing plants, and removal of any unwanted plants. We can build out anything from perennial and stone gardens, to bamboo and rock gardens, including a variety of trees, shrubs, perennial and annual flowers, as well as numerous hedges, ground covers, and erosion controls.</p>
+                <p>So from beautiful cedars to front yard entry planters, we can provide you with beautiful, cost effective ways to add some beauty to your home, front yard or back. At Lynx Landscaping, we’ll help you select the right shrubs or plants.</p>
               </div>
             </div>
-            <div className="centerText"><img src={Hardscape2} alt="" className="coverWidth"/></div>
+            <div className="picUnder"><img src={softscape2} alt="" className="pic" /></div>
           </div>
         </div>
     );

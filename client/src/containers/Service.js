@@ -17,12 +17,12 @@ class Service extends Component {
     return (
         <Switch>
            <Route path='/services/hardscape' component={Hardscape} />
-           <Route path='/services/pavingstones' component={PavingStones} />
-           <Route path='/services/lawninstall' component={LawnInstall} />
-           <Route path='/services/irrigationlighting' component={IrrigationLighting} />
-           <Route path='/services/drainage' component={Drainage} />
-           <Route path='/services/lawnmaintenance' component={LawnMaintenance} />
-           <Route path='/services/excavation' component={Excavation} />
+           <Route path='/services/paving-stones' component={PavingStones} />
+           <Route path='/services/lawn-installation' component={LawnInstall} />
+           <Route path='/services/irrigation-lighting' component={IrrigationLighting} />
+           <Route path='/services/drainage-systems' component={Drainage} />
+           <Route path='/services/lawn-maintenance' component={LawnMaintenance} />
+           <Route path='/services/excavation-services' component={Excavation} />
            <Route path='/services/softscape' component={Softscape} />
         </Switch>
     );

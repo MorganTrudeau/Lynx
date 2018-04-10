@@ -12,7 +12,7 @@
 }
 
 .navbar .navbar-nav > li > a:hover {
-  	color: grey;
+  	color: #8d8c7e;
 }
 
 .navbar .navbar-menu-item > li > a {
@@ -61,6 +61,7 @@
 	margin: 0px;
 	background-color: rgba(0,0,0,0.2);
 	color: white;
+	border-width: 5px;
 }
 
 

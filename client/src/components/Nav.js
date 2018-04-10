@@ -28,10 +28,17 @@ class Navigation extends Component {
 			      </NavItem>
 			      <NavDropdown eventKey={3} title="Services" id="basic-nav-dropdown">
 			        <MenuItem eventKey={3.1} href="/services/hardscape">Hardscape</MenuItem>
-			        <MenuItem eventKey={3.2} href="/services/railings">Railings</MenuItem>
-			        <MenuItem eventKey={3.3} href="/services/canopies">Canopies</MenuItem>
-			        <MenuItem eventKey={3.3} href="/services/renovations">Renovations</MenuItem>
+			        <MenuItem eventKey={3.2} href="/services/paving-stones">Paving Stones</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/lawn-installation">Lawn Installation</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/irrigation-lighting">Irrigation & Lighting</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/drainage-systems">Drainage Systems</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/lawn-maintenance">Lawn Maintenance</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/excavation-services">Excavation Services</MenuItem>
+			        <MenuItem eventKey={3.3} href="/services/softscape">Softscape</MenuItem>
 			      </NavDropdown>
+			      <NavItem eventKey={2} href="/gallery">
+			        Gallery
+			      </NavItem>
 			      <NavItem eventKey={2} href="/contact">
 			        Contact
 			      </NavItem>
