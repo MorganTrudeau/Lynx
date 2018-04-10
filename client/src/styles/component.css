@@ -1,24 +1,29 @@
-.navbar {
-	position:relative;
-	border-radius: 0px;
-	margin: 0px;
-	padding: 10px;
-	background-color: #1a1a1a;
+.navigation {
 	position: sticky;
 	top: 0;
+	z-index: 100;
+}
+
+.navbar {
+	position: relative;
+	border-radius: 0px;
+	margin: 0px;
+	padding: 5px;
+	background-color: #1a1a1a;
+	font-size: 0.855em;
 }
 
 .navbar .navbar-nav > li > a {
-  	color: white;
-  	height: 100%;
+	color: white;
+	height: 100%;
 }
 
 .navbar .navbar-nav > li > a:hover {
-  	color: #8d8c7e;
+	color: #8d8c7e;
 }
 
 .navbar .navbar-menu-item > li > a {
-  	color: white;
+	color: white;
 }
 
 .logo {
@@ -32,20 +37,20 @@
 	justify-content: center;
 }
 
-.hoverDiv {
+.carouselHoverDiv {
 	margin-top: -20px;
 	position: absolute;
 	width: 100%;
 	text-align: center;
 }
 
-.hoverDiv h1 {
+.carouselHoverDiv h1 {
 	color: white;
 	font-size: 10vw;
 	font-weight: bold;
 }
 
-.hoverDiv h3 {
+.carouselHoverDiv h3 {
 	color: white;
 	font-size: 5vw;
 	margin-bottom: 20px;
@@ -61,16 +66,19 @@
 	min-width: 150px;
 	height: 50px;
 	margin: 0px;
-	background-color: rgba(0,0,0,0.2);
+	background-color: rgba(0, 0, 0, 0.2);
 	color: white;
 	border-width: 5px;
 }
 
-
 .footer {
 	color: white;
-	background-color: #1a1a1a; 
+	background-color: #8d8c7e;
 	padding: 15px 0px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 .footer a {
@@ -104,7 +112,7 @@
 }
 
 .footer .cell1 .button {
-	background-color: #FFD602;
+	background-color: #ffd602;
 	border-color: black;
 	width: 200px;
 	margin: 0 auto;
@@ -112,8 +120,8 @@
 
 .footer .cell1 .button:hover {
 	background-color: black;
-	border-color: #FFD602;
-	color: #FFD602;
+	border-color: #ffd602;
+	color: #ffd602;
 }
 
 .footer .cell2 {
@@ -124,9 +132,7 @@
 	justify-content: center;
 }
 
-
 @media only screen and (min-width: 768px) {
-
 	.footer .cell1 {
 		grid-column-start: 3;
 	}
@@ -136,8 +142,7 @@
 		height: 70px;
 	}
 
-	.hoverDiv h3 {
+	.carouselHoverDiv h3 {
 		margin-bottom: 40px;
 	}
 }
-

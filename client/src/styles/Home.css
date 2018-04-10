@@ -23,11 +23,11 @@ a {
 }
 
 .blackHaze {
-	background-color: rgba(0,0,0,0.1);
+	background-color: rgba(0, 0, 0, 0.1);
 }
 
 .blackHaze:hover {
-	background-color: rgba(0,0,0,0.0);
+	background-color: rgba(0, 0, 0, 0);
 }
 
 .home .cell0 h1 {
@@ -39,23 +39,21 @@ a {
 	margin: 0 auto;
 }
 
-
-
 .home .cell1 {
-    min-height: 500px; 
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .home .cell1 .blanket {
 	color: white;
 	padding: 20px;
-	width:100%;
+	width: 100%;
 	height: 500px;
 	position: absolute;
-	background-color: rgba(0,0,0,0.4);
+	background-color: rgba(0, 0, 0, 0.4);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -96,7 +94,6 @@ a {
 	margin-top: 20px;
 }
 
-
 .home .cell3 {
 }
 
@@ -104,10 +101,8 @@ a {
 	background-color: #f5f5f0;
 }
 
-
-
 @media only screen and (min-width: 768px) {
-    .services {
+	.services {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
 

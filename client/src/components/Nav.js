@@ -10,8 +10,8 @@ const MenuItem = require("react-bootstrap/lib/MenuItem");
 class Navigation extends Component {
 	render() {
 		return (
-			<div className="navigation">
-				<Navbar inverse collapseOnSelect>
+			<div>
+				<Navbar inverse collapseOnSelect fixedTop>
 					<Navbar.Header>
 						<Navbar.Brand>
 							<a href="/" />

@@ -7,6 +7,34 @@
 	margin-bottom: 40px;
 }
 
+.contact .cell1 {
+	padding-top: 50px;
+}
+
+.contact .wrapper {
+	margin: 0 auto;
+}
+
+.contact .leftText {
+	padding: 10px;
+}
+
+.contact .rightText {
+	padding: 10px;
+}
+
+.gallery {
+	padding: 30px 0px;
+}
+
+.formComp .mapCell {
+	background-color: black;
+}
+
+.gallery .hoverDiv h6 {
+	margin: 10px;
+}
+
 @media only screen and (max-width: 768px) {
 	.marginTop {
 		margin-top: 40px;
@@ -34,6 +62,19 @@
 
 	.letsTalk .button {
 		margin-top: 15px;
+	}
+
+	.contact .wrapper {
+		margin: 0 auto;
+		display: grid;
+	}
+
+	.contact .leftText {
+		grid-row-start: 1;
+	}
+
+	.contact .rightText {
+		grid-row-start: 2;
 	}
 }
 
@@ -102,5 +143,25 @@
 
 	.letsTalk h3 {
 		display: inline-block;
+	}
+
+	.contact .wrapper {
+		width: 500px;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.contact .leftText {
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.contact .rightText {
+		text-align: right;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 	}
 }

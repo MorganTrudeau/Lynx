@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 import { Switch, Route } from "react-router-dom";
-import Hardscape from "./Services/Hardscape";
-import PavingStones from "./Services/PavingStones";
-import LawnInstall from "./Services/LawnInstall";
-import IrrigationLighting from "./Services/IrrigationLighting";
-import Drainage from "./Services/Drainage";
-import LawnMaintenance from "./Services/LawnMaintenance";
-import Excavation from "./Services/Excavation";
-import Softscape from "./Services/Softscape";
+import Hardscape from "./Hardscape";
+import PavingStones from "./PavingStones";
+import LawnInstall from "./LawnInstall";
+import IrrigationLighting from "./IrrigationLighting";
+import Drainage from "./Drainage";
+import LawnMaintenance from "./LawnMaintenance";
+import Excavation from "./Excavation";
+import Softscape from "./Softscape";
 
 const Button = require("react-bootstrap/lib/Button");
 
-class Services extends Component {
+class Service extends Component {
   render() {
     return (
       <Switch>
@@ -31,4 +31,4 @@ class Services extends Component {
   }
 }
 
-export default Services;
+export default Service;
