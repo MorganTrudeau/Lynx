@@ -1,3 +1,12 @@
+.contact .grad {
+	background: linear-gradient(#1a1a1a, white);
+	height: 30px;
+}
+
+.contact .cell0 h6 {
+	margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 768px) {
 	.marginTop {
 		margin-top: 40px;

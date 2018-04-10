@@ -19,7 +19,7 @@ class CarouselComp extends Component {
         <div className="hoverDiv">
           <h1>Good Company</h1>
           <h3>Something that makes people like you</h3>
-          <Button bsSize="large" className="buttonReverse"><b>GET A QUOTE</b></Button>
+          <Button bsSize="large" className="whiteButton"><b>GET A QUOTE</b></Button>
         </div>
       </div>
     );

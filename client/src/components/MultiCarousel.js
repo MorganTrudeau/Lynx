@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../styles/component.css';
-import retaining_wall_allen_block_landscape from '../images/Hardscape/retaining_wall_allen_block_landscape_square.JPG';
+import retaining_wall_allen_block_landscape from '../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_12.JPG';
 import lawn_maintenance_square from '../images/Lawn Maintenance/lawn_maintenance_square.jpg';
 import softscape_square from '../images/Softscape/softscape_square.jpg';
 

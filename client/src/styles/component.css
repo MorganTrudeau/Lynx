@@ -4,6 +4,8 @@
 	margin: 0px;
 	padding: 10px;
 	background-color: #1a1a1a;
+	position: sticky;
+	top: 0;
 }
 
 .navbar .navbar-nav > li > a {
@@ -53,7 +55,7 @@
 	letter-spacing: 1px;
 }
 
-.carousel .buttonReverse {
+.carousel .whiteButton {
 	width: 25vw;
 	font-size: 15px;
 	min-width: 150px;
@@ -129,7 +131,7 @@
 		grid-column-start: 3;
 	}
 
-	.carousel .buttonReverse {
+	.carousel .whiteButton {
 		font-size: 25px;
 		height: 70px;
 	}

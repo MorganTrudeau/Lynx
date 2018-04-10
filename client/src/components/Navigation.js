@@ -11,7 +11,7 @@ class Navigation extends Component {
   render() {
     return (
     	<div>
-			<Navbar inverse collapseOnSelect fixedTop>
+			<Navbar inverse collapseOnSelect fixedTop="true">
 			  <Navbar.Header>
 			    <Navbar.Brand>
 			      <a href="/"></a>

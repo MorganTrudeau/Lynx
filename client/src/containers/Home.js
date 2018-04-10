@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import '../styles/Home.css';
 import CarouselComp from '../components/Carousel';
-import hardscape_flag_stone_patio from '../images/Hardscape/hardscape_flag_stone_patio_square.JPG';
+import hardscape_flag_stone_patio from '../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_7.JPG';
 import paving_stone_driveway from '../images/Paving Stones/paving_stone_driveway_square.JPG';
 import excavation_construction from '../images/Excavation Services/excavation_construction_square.png';
 import lawn_maintenance from '../images/Lawn Maintenance/lawn_maintenance_square.jpg';
-import brick_hardscape_patio from '../images/Hardscape/brick_hardscape_patio.JPG';
+import img1 from '../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_2.JPG';
 import burnco_landscape from '../images/Partners/burnco_landscape.png';
 import john_deere from '../images/Partners/john_deere.jpg';
 import rainco_logo_main from '../images/Partners/rainco_logo_main.png';
@@ -31,7 +31,7 @@ class Home extends Component {
             </div>
             <Button bsSize="large" className="button"><b>More About Lynx</b></Button>
           </div>
-          <div className="cell1" style={{ backgroundImage: `url(${brick_hardscape_patio})`}}>
+          <div className="cell1" style={{ backgroundImage: `url(${img1})`}}>
             <div className="blanket">
               <div className="centerText">
                 <h2 className="h2">Elevate Your Outdoor Living Space</h2>

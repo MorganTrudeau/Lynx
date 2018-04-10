@@ -251,12 +251,37 @@ h6, .h6 {
 }
 
 .form input {
-	margin: 15px 0px;
+	margin: 20px 0px;
 }
 
 .form select {
 	width: 150px;
-	margin: 15px 0px;
+	margin: 20px 0px;
+}
+
+.formButton {
+	margin-top: 10px;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gallery .imgDiv {
+	overflow: hidden;
+	margin: 40px;
+	width: 250px;
+	height: 250px;
+}
+
+.gallery .img {
+	height: 100%;
+}
+
+.margin0 {
+	margin: 0 auto;
 }
 
 /* collapsable */

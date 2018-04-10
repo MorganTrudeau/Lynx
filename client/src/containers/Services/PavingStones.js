@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import paving1 from '../images/Paving Stones/brick_stone_walkway_path_garden_backyard_landscaping.jpg';
-import paving2 from '../images/Paving Stones/paving_stone_brick_driveway_walkway_landscaping_2.jpg';
-import '../styles/custom.css';
+import paving1 from '../../images/Paving Stones/brick_stone_walkway_path_garden_backyard_landscaping.jpg';
+import paving2 from '../../images/Paving Stones/paving_stone_brick_driveway_walkway_landscaping_2.jpg';
+import '../../styles/custom.css';
 
 const Button = require('react-bootstrap/lib/Button');
 
