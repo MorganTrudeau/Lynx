@@ -13,4 +13,4 @@ app.listen(port, () => console.log(`Listening on port ${port}`));
 
 app.use(express.static(path.join(__dirname, './client/build')));
 
-app.get('/', (req, res) => res.render('index'));
+app.get('*', (req, res) => res.render('index'));
