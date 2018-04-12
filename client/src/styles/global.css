@@ -61,6 +61,22 @@ h6,
 	-webkit-font-smoothing: antialiased;
 }
 
+@media only screen and (max-width: 768px) {
+	.app {
+		min-height: 100vh;
+		position: relative;
+		padding-bottom: 338px;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+	.app {
+		min-height: 100vh;
+		position: relative;
+		padding-bottom: 212px;
+	}
+}
+
 .entry {
 	padding: 40px 10px;
 }
@@ -293,8 +309,7 @@ h6,
 }
 
 .textarea {
-	height: 200px;
-	resize: vertical;
+	margin:bottom;
 }
 
 .form input {
@@ -307,7 +322,7 @@ h6,
 }
 
 .formButton {
-	margin-top: 10px;
+	margin-top: 40px;
 }
 
 .gallery {
@@ -324,8 +339,12 @@ h6,
 	position: relative;
 }
 
-.gallery .img {
+.gallery .imgHeight {
 	height: 100%;
+}
+
+.gallery .imgWidth {
+	width: 100%;
 }
 
 .margin0 {
@@ -339,6 +358,43 @@ h6,
 	letter-spacing: 2px;
 	width: 100%;
 	background-color: rgba(0, 0, 0, 0.2);
+}
+
+.galleryPage {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.gallery .hoverDiv h6 {
+	margin: 10px;
+}
+
+.modal .modal-dialog {
+	width: 100%;
+	margin-top: 62px;
+	border-radius: 0px;
+	background-color: black;
+}
+
+.modal .modal-footer {
+	background-color: black;
+	border-style: none;
+	padding: 10px;
+}
+
+.modal .modal-header .closeButton {
+	color: white;
+}
+
+.modal .modal-body {
+	background-color: black;
+	border-style: none;
+}
+
+.galleryCarousel img {
+	min-height: 400px;
+	max-height: 400px;
+	margin: 0 auto;
 }
 
 /* collapsable */
@@ -439,7 +495,6 @@ input[type="checkbox"] {
 
 	.textArea {
 		margin: 0 auto;
-		padding: 40px 20px;
 		width: 768px;
 	}
 }

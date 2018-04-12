@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../../styles/custom.css";
 // import Gallery from "../../components/Gallery";
-import Gallery from "react-grid-gallery";
+import Gallery from "../../components/Gallery";
 import d1 from "../../images/Drainage Systems/drainage_lawn_garden_grass_landscaping_1.jpg";
 import d2 from "../../images/Drainage Systems/drainage_lawn_garden_grass_landscaping_2.jpg";
 import d3 from "../../images/Drainage Systems/drainage_lawn_garden_grass_landscaping_3.jpg";
@@ -28,6 +28,12 @@ const IMAGES = [
     thumbnail: d3,
     thumbnailWidth: 320,
     thumbnailHeight: 212
+  },
+  {
+    src: d4,
+    thumbnail: d4,
+    thumbnailWidth: 320,
+    thumbnailHeight: 212
   }
 ];
 
@@ -38,8 +44,8 @@ class DrainageGallery extends Component {
       imgs: [
         { src: d1, alt: alt },
         { src: d2, alt: alt },
-        { src: d3, alt: alt },
-        { src: d4, alt: alt }
+        { src: d3, alt: alt, ratio: "width" },
+        { src: d4, alt: alt, ratio: "width" }
       ]
     };
   }
@@ -47,7 +53,7 @@ class DrainageGallery extends Component {
   render() {
     return (
       <div className="drainageGallery">
-        <Gallery images={IMAGES} />
+        <Gallery imgs={this.state.imgs} />
       </div>
     );
   }

@@ -19,10 +19,10 @@ class PavingStoneGallery extends Component {
     this.state = {
       imgs: [
         { src: img1, alt: alt },
-        { src: img2, alt: alt },
+        { src: img2, alt: alt, ratio: "width" },
         { src: img3, alt: alt },
         { src: img4, alt: alt },
-        { src: img5, alt: alt },
+        { src: img5, alt: alt, ratio: "width" },
         { src: img6, alt: alt },
         { src: img7, alt: alt },
         { src: img8, alt: alt }

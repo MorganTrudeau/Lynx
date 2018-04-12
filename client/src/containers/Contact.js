@@ -37,10 +37,7 @@ class Home extends Component {
               <div style={{ margin: "0 auto", marginTop: "30px" }}>
                 <Iframe
                   url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2609.530147449993!2d-122.64935488486357!3d49.152544687904545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485d185e81f5eaf%3A0xdb45156856ae0052!2s8258+207A+St%2C+Langley+Twp%2C+BC+V2Y+0N4!5e0!3m2!1sen!2sca!4v1523332860015"
-                  width="400"
-                  height="250"
-                  id="myId"
-                  className="myClassname"
+                  className="iFrame"
                   display="initial"
                   position="relative"
                   allowFullScreen

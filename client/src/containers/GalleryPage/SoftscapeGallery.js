@@ -20,10 +20,10 @@ class SoftScapeGallery extends Component {
       imgs: [
         { src: img1, alt: alt },
         { src: img2, alt: alt },
-        { src: img3, alt: alt },
+        { src: img3, alt: alt, ratio: "width", style: { marginTop: "-10%" } },
         { src: img4, alt: alt },
-        { src: img5, alt: alt },
-        { src: img6, alt: alt },
+        { src: img5, alt: alt, ratio: "width", style: { marginTop: "-10%" } },
+        { src: img6, alt: alt, ratio: "width", style: { marginTop: "-5%" } },
         { src: img7, alt: alt },
         { src: img8, alt: alt }
       ]

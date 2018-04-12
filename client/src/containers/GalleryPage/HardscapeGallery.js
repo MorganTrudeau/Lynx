@@ -25,13 +25,12 @@ class HardscapeGallery extends Component {
       imgs: [
         { src: img1, alt: alt },
         { src: img2, alt: alt },
-        { src: img3, alt: alt },
+        { src: img3, alt: alt, ratio: "width", style: { marginTop: "-20%" } },
         { src: img4, alt: alt },
-        { src: img5, alt: alt },
+        { src: img5, alt: alt, style: { marginLeft: "-40%" } },
         { src: img6, alt: alt },
-        { src: img7, alt: alt },
         { src: img8, alt: alt },
-        { src: img9, alt: alt },
+        { src: img9, alt: alt, ratio: "width" },
         { src: img10, alt: alt },
         { src: img11, alt: alt },
         { src: img13, alt: alt }

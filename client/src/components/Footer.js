@@ -34,7 +34,8 @@ class Footer extends Component {
                                 className="mediaIcon"
                             />
                         </div>
-                        <p>5645 - 199th Street, Langley, BC, V3A 1H9</p>
+                        <p>5645 - 199th Street</p>
+                        <p>Langley, BC, V3A 1H9</p>
                         <p>T: 604.530.5646</p>
                     </div>
                     <div className="cell1 centerText">

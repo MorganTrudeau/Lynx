@@ -71,9 +71,9 @@ class MainGallery extends Component {
 
   render() {
     return (
-      <div className="mainGallery">
+      <div className="mainGallery centerText">
         <div className="">
-          <Gallery imgs={this.state.imgs} />
+          <Gallery imgs={this.state.imgs} modal={false} />
         </div>
       </div>
     );

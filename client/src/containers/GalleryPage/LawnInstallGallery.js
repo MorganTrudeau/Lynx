@@ -14,7 +14,7 @@ class LawnInstallGallery extends Component {
       imgs: [
         { src: img1, alt: alt },
         { src: img2, alt: alt },
-        { src: img3, alt: alt }
+        { src: img3, alt: alt, ratio: "width", style: { marginTop: "-30%" } }
       ]
     };
   }
