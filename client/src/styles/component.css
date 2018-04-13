@@ -1,3 +1,5 @@
+/* navigation */
+
 .navigation {
 	position: sticky;
 	top: 0;
@@ -30,46 +32,46 @@
 	margin-top: -10px;
 }
 
-.carousel {
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+
+/* bannerCarousel */
+
+.bannerCarousel .item {
+	min-height: 400px;
 }
 
-.carouselHoverDiv {
-	margin-top: -20px;
+.bannerCarousel img {
+	z-index: 1;
 	position: absolute;
-	width: 100%;
-	text-align: center;
+    top: 0px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+    min-width: 768px;
 }
 
-.carouselHoverDiv h1 {
-	color: white;
-	font-size: 10vw;
-	font-weight: bold;
+.bannerCarousel .hovering {
+	z-index: 2;
 }
 
-.carouselHoverDiv h3 {
-	color: white;
-	font-size: 5vw;
-	margin-bottom: 20px;
+.bannerCarousel .hovering h1 {
+	font-size: 35px;
 }
 
-.carousel b {
-	letter-spacing: 1px;
+.bannerCarousel .hovering h3 {
+	font-size: 20px;
+	margin: 10px 0px 20px 0px;
 }
 
-.carousel .whiteButton {
-	width: 25vw;
+.bannerCarousel .whiteButton {
 	font-size: 15px;
-	min-width: 150px;
 	height: 50px;
-	margin: 0px;
+	margin: 0 auto;
 	background-color: rgba(0, 0, 0, 0.2);
 	color: white;
-	border-width: 5px;
+	border-width: 3px;
 }
+
+/* footer */
 
 .footer {
 	color: white;
@@ -138,12 +140,22 @@
 		grid-column-start: 3;
 	}
 
-	.carousel .whiteButton {
+	.bannerCarousel .whiteButton {
 		font-size: 25px;
 		height: 70px;
+		min-width: 200px;
 	}
 
-	.carouselHoverDiv h3 {
+	.bannerCarousel .hovering h1 {
+		font-size: 55px;
+	}
+
+	.bannerCarousel .hovering h3 {
 		margin-bottom: 40px;
+		font-size: 35px;
+	}
+
+	.bannerCarousel .item {
+		height: 49vw;
 	}
 }

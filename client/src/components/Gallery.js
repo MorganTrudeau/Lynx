@@ -45,7 +45,7 @@ class Gallery extends Component {
                         style={img.style}
                       />
                     </div>
-                    <div className={ img.title ? "hoverDiv centerText" : "" }>
+                    <div className={ img.title ? "hovering smoke centerText whiteText" : "" }>
                       <h6>{img.title}</h6>
                     </div>
                   </Fade>
@@ -53,7 +53,7 @@ class Gallery extends Component {
               </a>
             ))
           : null}
-        <Modal show={this.state.show} onHide={this.handleClose}>
+        <Modal show={this.state.show} onHide={this.handleClose} className="galleryModal">
           <Modal.Body>
             <GalleryCarousel imgs={ this.props.imgs } index={ this.state.index } />
           </Modal.Body>
