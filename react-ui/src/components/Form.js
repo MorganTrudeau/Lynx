@@ -3,18 +3,6 @@ import "../styles/custom.css";
 
 const Button = require("react-bootstrap/lib/Button");
 const FormControl = require("react-bootstrap/lib/FormControl");
-const Checkbox = require("react-bootstrap/lib/Checkbox");
-const FormGroup = require("react-bootstrap/lib/FormGroup");
-const ControlLabel = require("react-bootstrap/lib/ControlLabel");
-
-function FieldGroup({ id, label, help, ...props }) {
-  return (
-    <FormGroup controlId={id}>
-      <ControlLabel>{label}</ControlLabel>
-      <FormControl {...props} />
-    </FormGroup>
-  );
-}
 
 function sendEmail(name, phone, email, address, message) {
   try {
@@ -47,7 +35,7 @@ class Form extends Component {
   }
 
   handleChange(event) {
-    this.setState({ [event.target.name] : event.target.value });
+    this.setState({ [event.target.name]: event.target.value });
   }
 
   handleSubmit(event) {
@@ -66,15 +54,45 @@ class Form extends Component {
   render() {
     return (
       <div className="formComp centerText">
-        <p>Get your FREE CONSULTATION Lynx Landscaping & Design by filling in as much information as possible below.</p>
-        <p>NOTE: for a Project Quote, fill in the info below, and email us any documents you have, such as sketches or links to examples online.</p>
-        <form onSubmit={ this.handleSubmit }>
+        <p>
+          Get your FREE CONSULTATION Lynx Landscaping & Design by filling in as
+          much information as possible below.
+        </p>
+        <p>
+          NOTE: for a Project Quote, fill in the info below, and email us any
+          documents you have, such as sketches or links to examples online.
+        </p>
+        <form onSubmit={this.handleSubmit}>
           <div className="formWrapper">
             <div className="form">
-              <FormControl type="text" placeholder="Name*" value={this.state.name} name="name" onChange={ this.handleChange } />
-              <FormControl type="text" placeholder="Telephone" value={this.state.phone} name="phone" onChange={ this.handleChange } />
-              <FormControl type="text" placeholder="Email*" value={this.state.email} name="email" onChange={ this.handleChange } />
-              <FormControl type="text" placeholder="Address" value={this.state.address} name="address" onChange={ this.handleChange } />
+              <FormControl
+                type="text"
+                placeholder="Name*"
+                value={this.state.name}
+                name="name"
+                onChange={this.handleChange}
+              />
+              <FormControl
+                type="text"
+                placeholder="Telephone"
+                value={this.state.phone}
+                name="phone"
+                onChange={this.handleChange}
+              />
+              <FormControl
+                type="text"
+                placeholder="Email*"
+                value={this.state.email}
+                name="email"
+                onChange={this.handleChange}
+              />
+              <FormControl
+                type="text"
+                placeholder="Address"
+                value={this.state.address}
+                name="address"
+                onChange={this.handleChange}
+              />
             </div>
           </div>
           <div className="form textArea">
@@ -84,11 +102,13 @@ class Form extends Component {
               rows={6}
               value={this.state.message}
               name="message"
-              onChange={ this.handleChange }
+              onChange={this.handleChange}
             />
           </div>
           <div className="centerText">
-            <Button type="submit" className="formButton whiteButton">Get Free Quote</Button>
+            <Button type="submit" className="formButton whiteButton">
+              Get Free Quote
+            </Button>
           </div>
         </form>
       </div>

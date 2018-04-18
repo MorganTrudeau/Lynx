@@ -7,12 +7,10 @@ import img3 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_
 import img4 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_4.jpg";
 import img5 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_5.JPG";
 import img6 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_6.jpg";
-import img7 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_7.JPG";
 import img8 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_8.JPG";
 import img9 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_9.JPG";
 import img10 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_10.JPG";
 import img11 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_11.JPG";
-import img12 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_12.JPG";
 import img13 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_13.jpg";
 
 const alt =

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "../styles/custom.css";
 
-const Carousel = require('react-bootstrap/lib/Carousel');
+const Carousel = require("react-bootstrap/lib/Carousel");
 
-class GalleryCarousel extends React.Component {
+class GalleryCarousel extends Component {
   constructor(props, context) {
     super(props, context);
 
@@ -16,7 +16,7 @@ class GalleryCarousel extends React.Component {
   }
 
   componentWillMount() {
-    this.setState({ index: this.props.index })
+    this.setState({ index: this.props.index });
   }
 
   handleSelect(selectedIndex, e) {
@@ -37,11 +37,11 @@ class GalleryCarousel extends React.Component {
           interval={null}
           slide={false}
         >
-        {this.props.imgs.map((img, index) =>
-          <Carousel.Item key={index}>
-              <img alt={ img.alt } src={ img.src } />
-          </Carousel.Item>
-        )}
+          {this.props.imgs.map((img, index) => (
+            <Carousel.Item key={index}>
+              <img alt={img.alt} src={img.src} />
+            </Carousel.Item>
+          ))}
         </Carousel>
       </div>
     );

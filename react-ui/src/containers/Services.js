@@ -9,8 +9,6 @@ import LawnMaintenance from "./Services/LawnMaintenance";
 import Excavation from "./Services/Excavation";
 import Softscape from "./Services/Softscape";
 
-const Button = require("react-bootstrap/lib/Button");
-
 class Services extends Component {
   render() {
     return (

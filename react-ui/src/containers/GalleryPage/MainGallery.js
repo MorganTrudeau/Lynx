@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Switch, Route } from "react-router-dom";
 import "../../styles/custom.css";
 import Gallery from "../../components/Gallery";
 import drainageGallery from "../../images/main-gallery/drainage_gallery.jpg";

@@ -3,13 +3,10 @@ import "../styles/About.css";
 import Fade from "react-reveal/Fade";
 import MultiCarousel from "../components/MultiCarousel";
 import allen_block_retaining_wall_hardscape_landscaping from "../images/patio-landscape-wall-firepit-belgard.jpg";
-import excavation_landscaping_construction from "../images/Excavation Services/excavation_landscaping_construction.jpg";
-import retaining_wall_allen_block_landscape from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_10.JPG";
-import lawn_maintenance_square from "../images/Lawn Maintenance/lawn_maintenance_square.jpg";
-import softscape_square from "../images/Softscape/softscape_square.jpg";
+import multiCarouselPic1 from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_14.jpg";
+import multiCarouselPic2 from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_15.jpg";
+import multiCarouselPic3 from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_16.jpg";
 import construction_excavator_gravel from "../images/construction_excavator_gravel_scaled.jpg";
-
-const Button = require("react-bootstrap/lib/Button");
 
 class Home extends Component {
   constructor() {
@@ -100,17 +97,22 @@ class Home extends Component {
         </div>
         <div>
           <MultiCarousel
-            pictures={[
+            imgs={[
               {
-                pic: excavation_landscaping_construction,
-                alt: "excavation_landscaping_construction"
+                src: multiCarouselPic1,
+                alt:
+                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
               },
               {
-                pic: retaining_wall_allen_block_landscape,
-                alt: "retaining_wall_allen_block_landscape"
+                src: multiCarouselPic2,
+                alt:
+                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
               },
-              { pic: lawn_maintenance_square, alt: "lawn_maintenance_square" },
-              { pic: softscape_square, alt: "softscape_square" }
+              {
+                src: multiCarouselPic3,
+                alt:
+                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
+              }
             ]}
           />
         </div>

@@ -1,11 +1,9 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "../styles/component.css";
 import facebook from "../images/SocialMedia/facebook.png";
 import instagram from "../images/SocialMedia/instagram.png";
 import email from "../images/SocialMedia/email.png";
-
-const Button = require("react-bootstrap/lib/Button");
 
 class Footer extends Component {
     render() {
@@ -14,7 +12,7 @@ class Footer extends Component {
                 <div className="gridRow col3">
                     <div className="cell0">
                         <div className="gridRow col3 mediaIcons">
-                            <a href='https://www.facebook.com/LynxLandscaping/'>
+                            <a href="https://www.facebook.com/LynxLandscaping/">
                                 <img
                                     src={facebook}
                                     alt="social media facebook"
@@ -22,7 +20,7 @@ class Footer extends Component {
                                     className="mediaIcon"
                                 />
                             </a>
-                            <a href='https://www.instagram.com/lynxlandscaping/?hl=en'>
+                            <a href="https://www.instagram.com/lynxlandscaping/?hl=en">
                                 <img
                                     src={instagram}
                                     alt="social media instagram"

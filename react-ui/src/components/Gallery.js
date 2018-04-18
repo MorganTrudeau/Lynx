@@ -3,8 +3,8 @@ import "../styles/custom.css";
 import Fade from "react-reveal/Fade";
 import GalleryCarousel from "./GalleryCarousel";
 
-const Button = require('react-bootstrap/lib/Button');
-const Modal = require('react-bootstrap/lib/Modal'); 
+const Button = require("react-bootstrap/lib/Button");
+const Modal = require("react-bootstrap/lib/Modal");
 
 class Gallery extends Component {
   constructor(props) {
@@ -16,7 +16,9 @@ class Gallery extends Component {
   }
 
   componentWillMount() {
-    this.props.modal !== undefined ? this.setState({ modal: this.props.modal }) : null;
+    this.props.modal !== undefined
+      ? this.setState({ modal: this.props.modal })
+      : null;
   }
 
   handleClose() {
@@ -24,7 +26,7 @@ class Gallery extends Component {
   }
 
   handleShow(index) {
-    if(this.state.modal) {
+    if (this.state.modal) {
       this.setState({ show: true, index: index });
     }
   }
@@ -34,18 +36,28 @@ class Gallery extends Component {
       <div className="gallery">
         {this.props.imgs
           ? this.props.imgs.map((img, index) => (
-              <a href={img.href} key={index} onClick={() => this.handleShow(index) }>
+              <a
+                href={img.href}
+                key={index}
+                onClick={() => this.handleShow(index)}
+              >
                 <div className="imgDiv">
                   <Fade>
-                    <div className="cover tint lightTint" id={ img.index }>
+                    <div className="cover tint lightTint" id={img.index}>
                       <img
                         src={img.src}
                         alt={img.alt}
-                        className={ img.ratio === "width" ? "imgWidth" : "imgHeight" }
+                        className={
+                          img.ratio === "width" ? "imgWidth" : "imgHeight"
+                        }
                         style={img.style}
                       />
                     </div>
-                    <div className={ img.title ? "hovering smoke centerText whiteText" : "" }>
+                    <div
+                      className={
+                        img.title ? "hovering smoke centerText whiteText" : ""
+                      }
+                    >
                       <h6>{img.title}</h6>
                     </div>
                   </Fade>
@@ -53,12 +65,18 @@ class Gallery extends Component {
               </a>
             ))
           : null}
-        <Modal show={this.state.show} onHide={this.handleClose} className="galleryModal">
+        <Modal
+          show={this.state.show}
+          onHide={this.handleClose}
+          className="galleryModal"
+        >
           <Modal.Body>
-            <GalleryCarousel imgs={ this.props.imgs } index={ this.state.index } />
+            <GalleryCarousel imgs={this.props.imgs} index={this.state.index} />
           </Modal.Body>
           <Modal.Footer className="centerText">
-            <Button className="button" onClick={this.handleClose}>Exit</Button>
+            <Button className="button" onClick={this.handleClose}>
+              Exit
+            </Button>
           </Modal.Footer>
         </Modal>
       </div>

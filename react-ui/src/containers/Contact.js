@@ -3,8 +3,6 @@ import "../styles/custom.css";
 import Form from "../components/Form";
 import Iframe from "react-iframe";
 
-const Button = require("react-bootstrap/lib/Button");
-
 class Home extends Component {
   constructor() {
     super();
