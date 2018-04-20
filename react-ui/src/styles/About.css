@@ -6,11 +6,8 @@
 	padding: 20px 0px 60px 0px;
 }
 
-.about .multiCarousel {
-	padding: 1px 0px;
-}
-
-.about .multiCarousel .gridRow {
+.about .multiPic {
+	margin: 1px 0px;
 	grid-gap: 1px;
 }
 

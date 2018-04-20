@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "../styles/component.css";
+import logo from "../images/lynx_landscape_design_contracting_logo.png";
 
 const Nav = require("react-bootstrap/lib/Nav");
 const Navbar = require("react-bootstrap/lib/Navbar");
@@ -14,7 +15,14 @@ class Navigation extends Component {
 				<Navbar inverse collapseOnSelect>
 					<Navbar.Header>
 						<Navbar.Brand>
-							<a href="/" />
+							<a href="/">
+								<img
+									src={logo}
+									alt=""
+									height="50px"
+									style={{ marginTop: "-15px" }}
+								/>
+							</a>
 						</Navbar.Brand>
 						<Navbar.Toggle />
 					</Navbar.Header>

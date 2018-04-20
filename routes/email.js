@@ -29,7 +29,7 @@ router.post("/", function(req, res, next) {
 
     const mailOptions = {
         from: '"The Salamander Commander 👻" <salcombot@gmail.com>', // sender address
-        to: "salcomwebdesign@gmail.com", // list of receivers
+        to: "lynxlandscapedesign@gmail.com", // list of receivers
         subject: "Job Request", // Subject line
         html: `<p>${senderName}</p></br><p>${senderEmail}</p></br><p>${message}</p>` // html body
     };

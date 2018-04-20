@@ -95,25 +95,21 @@ class Home extends Component {
             </div>
           </Fade>
         </div>
-        <div>
-          <MultiCarousel
-            imgs={[
-              {
-                src: multiCarouselPic1,
-                alt:
-                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
-              },
-              {
-                src: multiCarouselPic2,
-                alt:
-                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
-              },
-              {
-                src: multiCarouselPic3,
-                alt:
-                  "allen_block_brick_retaining_wall_patio_hardscape_landscaping"
-              }
-            ]}
+        <div className="multiPic gridRow setCol3">
+          <img
+            src={multiCarouselPic1}
+            alt="allen_block_brick_retaining_wall_patio_hardscape_landscaping"
+            className="coverWidth"
+          />
+          <img
+            src={multiCarouselPic2}
+            alt="allen_block_brick_retaining_wall_patio_hardscape_landscaping"
+            className="coverWidth"
+          />
+          <img
+            src={multiCarouselPic2}
+            alt="allen_block_brick_retaining_wall_patio_hardscape_landscaping"
+            className="coverWidth"
           />
         </div>
         <div
