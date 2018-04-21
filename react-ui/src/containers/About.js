@@ -60,7 +60,7 @@ class Home extends Component {
               </div>
               <div>
                 <div className="title">
-                  <h5>Over 5000 Satisfied Customers</h5>
+                  <h5>Over 2000 Satisfied Customers</h5>
                 </div>
                 <div className="textBlock">
                   <p>
@@ -107,7 +107,7 @@ class Home extends Component {
             className="coverWidth"
           />
           <img
-            src={multiCarouselPic2}
+            src={multiCarouselPic3}
             alt="allen_block_brick_retaining_wall_patio_hardscape_landscaping"
             className="coverWidth"
           />
