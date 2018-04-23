@@ -78,7 +78,7 @@ h6,
 }
 
 .entry {
-	padding: 40px 10px;
+	padding: 40px 15px;
 }
 
 .primaryBGColor {
@@ -500,10 +500,6 @@ input[type="checkbox"] {
 
 	.col4 {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
-	}
-
-	.entry {
-		padding: 60px 10px;
 	}
 
 	.paddedTextBlock {

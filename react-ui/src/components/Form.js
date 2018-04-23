@@ -25,6 +25,14 @@ function sendEmail(name, phone, email, address, message) {
   }
 }
 
+function validateForm(name, email) {
+  if (name.trim() !== "" && email.trim() !== "") {
+    return true;
+  } else {
+    return false;
+  }
+}
+
 class Form extends Component {
   constructor(props) {
     super(props);
@@ -46,9 +54,10 @@ class Form extends Component {
     const address = this.state.address;
     const message = this.state.message;
 
-    alert("Thank you. We will respond as soon as possible");
-
-    sendEmail(name, phone, email, address, message);
+    if (validateForm(name, email)) {
+      alert("Thank you. We will respond as soon as possible");
+      sendEmail(name, phone, email, address, message);
+    }
   }
 
   render() {

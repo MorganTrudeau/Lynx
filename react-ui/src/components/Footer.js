@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "../styles/component.css";
-import facebook from "../images/SocialMedia/facebook.png";
-import instagram from "../images/SocialMedia/instagram.png";
-import email from "../images/SocialMedia/email.png";
+import Instagram from "react-icons/lib/fa/instagram";
+import Email from "react-icons/lib/io/email";
+import Facebook from "react-icons/lib/fa/facebook-official";
 
 class Footer extends Component {
     render() {
@@ -13,29 +13,24 @@ class Footer extends Component {
                     <div className="cell0">
                         <div className="gridRow col3 mediaIcons">
                             <a href="https://www.facebook.com/LynxLandscaping/">
-                                <img
-                                    src={facebook}
-                                    alt="social media facebook"
-                                    height="20px"
-                                    className="mediaIcon"
+                                <Facebook
+                                    className="icon"
+                                    color="white"
+                                    size="25px"
                                 />
                             </a>
                             <a href="https://www.instagram.com/lynxlandscaping/?hl=en">
-                                <img
-                                    src={instagram}
-                                    alt="social media instagram"
-                                    height="25px"
-                                    style={{ marginTop: "-2px" }}
-                                    className="mediaIcon"
+                                <Instagram
+                                    className="icon"
+                                    color="white"
+                                    size="25px"
                                 />
                             </a>
                             <Link to="/contact">
-                                <img
-                                    src={email}
-                                    alt="social media email"
-                                    height="25px"
-                                    style={{ marginTop: "-2px" }}
-                                    className="mediaIcon"
+                                <Email
+                                    className="icon email"
+                                    color="white"
+                                    size="30px"
                                 />
                             </Link>
                         </div>

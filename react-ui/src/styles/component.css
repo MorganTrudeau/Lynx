@@ -32,7 +32,6 @@
 	margin-top: -10px;
 }
 
-
 /* bannerCarousel */
 
 .bannerCarousel .item {
@@ -42,11 +41,11 @@
 .bannerCarousel img {
 	z-index: 1;
 	position: absolute;
-    top: 0px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
-    min-width: 768px;
+	top: 0px;
+	left: -9999px;
+	right: -9999px;
+	margin: auto;
+	min-width: 768px;
 }
 
 .bannerCarousel .hovering {
@@ -97,8 +96,12 @@
 	justify-content: center;
 }
 
-.footer .mediaIcon {
+.footer .icon {
 	margin: 0px 20px 20px 20px;
+}
+
+.footer .email {
+	margin-top: -2px;
 }
 
 .footer .gridRow {
@@ -107,7 +110,6 @@
 
 .footer .cell0 {
 	padding: 40px 10px 20px 10px;
-	
 }
 
 .footer .cell1 {
@@ -133,6 +135,28 @@
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+
+/* banner */
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	background-color: black;
+}
+
+.header p {
+	margin: 5px 10px;
+	font-weight: 600;
+}
+
+.header .icon {
+	margin: 5px 10px;
+}
+
+.header .email {
+	margin-top: 3px;
 }
 
 @media only screen and (min-width: 768px) {

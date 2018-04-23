@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../styles/About.css";
 import Fade from "react-reveal/Fade";
 import MultiCarousel from "../components/MultiCarousel";
 import allen_block_retaining_wall_hardscape_landscaping from "../images/patio-landscape-wall-firepit-belgard.jpg";
