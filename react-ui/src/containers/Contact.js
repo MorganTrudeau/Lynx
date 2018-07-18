@@ -30,7 +30,7 @@ class Home extends Component {
                 <b>Tel:</b> +1-604-818-4736
               </p>
               <p>
-                <b>Email:</b> info@lynxlandscaping.ca
+                <b>Email:</b> lynxlandscapedesign@gmail.com
               </p>
             </div>
           </div>
