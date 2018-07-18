@@ -41,19 +41,19 @@ class Home extends Component {
                 </div>
                 <div className="textBlock">
                   <p>
-                    Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                    ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                    Proud of the years of dedication to our work and our
+                    customers.
                   </p>
                 </div>
               </div>
               <div>
                 <div className="title">
-                  <h5>100,000 Yards of Material</h5>
+                  <h5>50,000 Yards of Material</h5>
                 </div>
                 <div className="textBlock">
                   <p>
-                    Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                    ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                    We work hard to provide you the best product that you can
+                    enjoy forever.
                   </p>
                 </div>
               </div>
@@ -63,8 +63,7 @@ class Home extends Component {
                 </div>
                 <div className="textBlock">
                   <p>
-                    Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                    ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                    Ensuring our customer's needs are fufilled is our main goal.
                   </p>
                 </div>
               </div>

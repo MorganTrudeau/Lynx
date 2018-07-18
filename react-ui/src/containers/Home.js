@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "../styles/Home.css";
 import CarouselComp from "../components/Carousel";
 import hardscape_flag_stone_patio from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_7.JPG";
@@ -89,8 +89,8 @@ class Home extends Component {
               </div>
               <div className="textBlock">
                 <p>
-                  Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                  ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                  Complete your landscape design with timeless natural
+                  stonework.
                 </p>
                 <a href="services/hardscape">
                   <Button className="button">
@@ -116,8 +116,9 @@ class Home extends Component {
             </div>
             <div className="textBlock">
               <p>
-                Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                Available in different models and hues, pavers can meet all your
+                landscaping needs and reflect even the most individualized
+                styles
               </p>
               <a href="services/paving-stones">
                 <Button className="button">
@@ -142,8 +143,8 @@ class Home extends Component {
             </div>
             <div className="textBlock">
               <p>
-                Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                We offer heavy duty services such as trenching, backfilling,
+                leveling and grading, pool decommissioning and more.
               </p>
               <a href="services/excavation-services">
                 <Button className="button">
@@ -168,8 +169,8 @@ class Home extends Component {
             </div>
             <div className="textBlock">
               <p>
-                Lorem ipsum dolor sit amet, assum munere aliquid ei usu, ad
-                ullum assentior qui, nihil tollit quo ut. Sale tincidunt.
+                Installing beautiful healthy lawns that will transform the look
+                and feel of any backyard.
               </p>
               <a href="services/lawn-maintenance">
                 <Button className="button">
