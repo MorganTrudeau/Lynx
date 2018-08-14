@@ -6,12 +6,12 @@ import hardscape_flag_stone_patio from "../images/Hardscape/allen_block_brick_re
 import paving_stone_driveway from "../images/Paving Stones/paving_stone_driveway_square.JPG";
 import excavation_construction from "../images/Excavation Services/excavation_construction_square.png";
 import lawn_maintenance from "../images/Lawn Maintenance/lawn_maintenance_square.jpg";
-import img1 from "../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_2.JPG";
+import img1 from "../images/Hardscape/elevate-langley-landscaping-excavation-contracting.jpg";
 import burnco_landscape from "../images/Partners/burnco_landscape.png";
 import john_deere from "../images/Partners/john_deere.jpg";
 import rainco_logo_main from "../images/Partners/rainco_logo_main.png";
-import excavation__banner from "../images/excavation_construction_dirt_removal_dig_banner.jpg";
-import brick__banner from "../images/brick_stone_work_patio_wall_banner.jpg";
+import slider1 from "../images/slider1-langley-landscaping-excavation-contracting.jpg";
+import slider2 from "../images/slider2-langley-landscaping-excavation-contracting.jpg";
 
 const Button = require("react-bootstrap/lib/Button");
 
@@ -31,10 +31,10 @@ class Home extends Component {
         <CarouselComp
           pictures={[
             {
-              pic: excavation__banner,
-              alt: "excavation_construction_dirt_removal_banner"
+              pic: slider1,
+              alt: "langley-landscaping-excavation-contracting"
             },
-            { pic: brick__banner, alt: "brick_stone_work_patio_wall_banner" }
+            { pic: slider2, alt: "langley-landscaping-excavation-contracting" }
           ]}
         />
         <div className="entry cell0 centerText">

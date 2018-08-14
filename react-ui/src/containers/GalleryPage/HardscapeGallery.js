@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../../styles/custom.css";
 import Gallery from "../../components/Gallery";
 import img1 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_1.jpg";
-import img2 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_2.JPG";
+import img2 from "../../images/Hardscape/elevate-langley-landscaping-excavation-contracting.jpg";
 import img3 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_3.jpg";
 import img4 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_4.jpg";
 import img5 from "../../images/Hardscape/allen_block_brick_retaining_wall_patio_hardscape_landscaping_5.JPG";
