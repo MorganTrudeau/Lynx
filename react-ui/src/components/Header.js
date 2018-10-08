@@ -21,7 +21,7 @@ class Header extends Component {
 				<a href="https://www.facebook.com/LynxLandscaping/">
 					<Facebook className="icon" color="lightgrey" size="25px" />
 				</a>
-				<a href="https://www.instagram.com/lynxlandscaping/?hl=en">
+				<a href="https://www.instagram.com/lynxcontractingltd/">
 					<Instagram className="icon" color="lightgrey" size="25px" />
 				</a>
 				<Link to="/contact">
